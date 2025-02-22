@@ -8,7 +8,7 @@ const navItems = [
   },
   {
     href: '#',
-    label: 'Projets'
+    label: 'Projects'
   },
   {
     href: '#',
@@ -27,7 +27,7 @@ const navItems = [
 const Footer: FC = () => {
   return (
     <footer className="bg-stone-900 text-stone-200">
-      <div className="container">
+      <div className="container" id="contact">
         <div className="section">
           <div className="flex items-center gap-3">
             <div className="size-3 rounded-full bg-green-400"></div>
