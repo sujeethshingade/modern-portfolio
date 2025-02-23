@@ -40,7 +40,7 @@ const Projects: FC = () => {
               <div className="absolute bottom-0 left-0 w-full h-0 group-hover/project:h-full transition-all duration-700 bg-stone-300"></div>
               <div className="relative">
                 <div className="aspect-video md:hidden">
-                  <Image src={image} alt={name} className="size-full object-cover rounded-xl" />
+                  <Image src={image} alt={name} className="size-full object-cover" />
                 </div>
                 <div className="mt-8 md:mt-0 flex justify-between items-center md:grid md:[grid-template-columns:1fr_300px_max-content] md:gap-8">
                   <div className="md:group-hover/project:pl-4 transition-all duration-700">
@@ -48,7 +48,7 @@ const Projects: FC = () => {
                   </div>
                   <div className="relative">
                     <div className="absolute aspect-video w-full top-1/2 -translate-y-1/2 opacity-0 scale-90 group-hover/project:opacity-100 group-hover/project:scale-100 lg:group-hover/project:scale-110 transition-all duration-500 z-10">
-                      <Image src={image} alt={name} className="size-full object-cover rounded-xl" />
+                      <Image src={image} alt={name} className="size-full object-cover" />
                     </div>
                   </div>
                   <div className="md:group-hover/project:pr-4 transition-all duration-700">

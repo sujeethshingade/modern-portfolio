@@ -47,7 +47,7 @@ const Testimonials: FC = () => {
           {testimonials.map(({ name, company, role, quote, image, imagePositionY }, index) => index === testimonialIndex && (
             <div key={name} className="grid md:grid-cols-5 md:gap-8 lg:gap-16 md:items-center">
               <div className="aspect-square md:aspect-[9/16] md:col-span-2">
-                <Image src={image} alt={name} className="size-full object-cover rounded-xl"
+                <Image src={image} alt={name} className="size-full object-cover"
                   style={{
                     objectPosition: `50% ${imagePositionY * 100}%`,
                   }} />
